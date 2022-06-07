@@ -1,10 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import EmojiPickerInput from './components/emojipicker/emojipickerinput';
 
 function App() {
   return (
     <div className="App">
-      
+      <EmojiPickerInput />
     </div>
   );
 }
