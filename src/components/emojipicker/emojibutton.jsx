@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './emojipicker.module.scss';
 
 function EmojiButton({ emoji, onClick }) {
   function handleClick() {
@@ -6,7 +7,7 @@ function EmojiButton({ emoji, onClick }) {
   }
 
   return (
-    <button onClick={ handleClick }> { emoji.emoji } </button>
+    <button className={ styles.emojiButton } onClick={ handleClick }> { emoji.emoji } </button>
   );
 }
 
